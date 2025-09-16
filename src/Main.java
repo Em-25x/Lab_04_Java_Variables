@@ -38,5 +38,18 @@ public class Main
         System.out.println("The product of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
         System.out.println("The difference between " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
         System.out.println("The quotient of " +  doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
+
+        //the number of kids in your family: the answer to is it raining?: the price of a gallon of gas:
+        // your favorite number: your shoe size: your birth month: your full name:\
+        int kidsInMyFamily = 4;
+        boolean isRaining = false;
+        double gasPrice = 3.17;
+        double myFavoriteNumber = 3.1415926939897932382646238832795028841971693993751058209749445923078064062862089986280348253421170679;
+        //yes that was purely from memory
+        double myShoeSize = 8.5;
+        int myBirthMonth = 11;
+        String myBirthMonthName = "November";
+        String myName = "Em Marie Hunter";
+        System.out.println("My name is " + myName + " and I was born in " + myBirthMonthName + ".");
     }
 }
